@@ -1,0 +1,20 @@
+.cont-carrousel {
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+  float: right;
+  margin-right: 20px;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+.d-block {
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .cont-carrousel {
+    width: 96%;
+    float: none;
+    margin: 0;
+    margin: auto;
+  }
+}

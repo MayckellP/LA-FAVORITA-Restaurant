@@ -1,0 +1,9 @@
+.cont-footer {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 15px;
+}

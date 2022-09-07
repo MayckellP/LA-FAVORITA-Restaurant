@@ -1,0 +1,30 @@
+.body-log {
+  background: #485563; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #29323c,
+    #485563
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #29323c,
+    #485563
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 40px;
+  padding-top: 20px;
+  height: 100vh;
+}
+.img-log {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+img {
+  width: 20%;
+}
+@media (max-width: 600px) {
+  img {
+    width: 30%;
+  }
+}

@@ -1,0 +1,41 @@
+.title {
+  width: 90%;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin: auto;
+}
+.cont-form {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px;
+}
+.cont-table {
+  background-color: rgba(172, 188, 208, 0.681);
+  width: 96%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+.campo-form {
+  padding: 5px;
+}
+.btn-form {
+  width: 100%;
+  margin-top: 15px;
+}
+.buttons {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 15px;
+}
+@media (max-width: 650px) {
+  .cont-table {
+    width: 96%;
+  }
+  .cont-table tr {
+    display: flex;
+    flex-direction: column;
+  }
+}
