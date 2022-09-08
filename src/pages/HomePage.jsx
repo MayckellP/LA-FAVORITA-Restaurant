@@ -37,7 +37,12 @@ const HomePage = () => {
       <section className="cont-section">
         <div className="subcont-section">
           <h2 className="tl-oferta">Sugerencias y Ofertas de Trabajo</h2>
+
           <Form />
+          <p>
+            <br />
+            Dorflindestrasse 2, 8050 | Zurich - Suiza
+          </p>
         </div>
       </section>
     </div>

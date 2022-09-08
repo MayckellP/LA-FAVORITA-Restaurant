@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { database } from "../firebase/firebase";
 import { getDocs, collection } from "firebase/firestore";
 import { NavLink } from "react-router-dom";
@@ -18,7 +18,10 @@ const TableReservPage = () => {
     console.log(data);
     setLista(data);
   };
-  obtenerReservacion();
+  useEffect(() => {
+    obtenerReservacion();
+  }, []);
+
   return (
     <div className="body-tb">
       <div className="tl-rev">
@@ -58,7 +61,7 @@ const TableReservPage = () => {
             Ver Menu
           </button>
         </NavLink>
-        <NavLink to="/table">
+        <NavLink to="/reservation">
           <button type="submit" className="btn btn-success">
             Volver a Reservaciones
           </button>

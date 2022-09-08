@@ -59,6 +59,10 @@
   margin: auto;
   color: rgb(255, 255, 255);
 }
+.subcont-section p,
+h2 {
+  text-align: center;
+}
 @media (max-width: 880px) {
   .title-hp {
     font-size: 30px;

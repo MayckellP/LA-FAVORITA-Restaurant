@@ -23,8 +23,6 @@ const formularioInicializado = {
 };
 
 const ReservationForm = () => {
-  //OBTENER PELICULA
-  //const [movies, setMovies] = useState([]);
   const [form, setForm] = useState(formularioInicializado);
 
   //HACER LA RESERVACIÓN
@@ -32,7 +30,9 @@ const ReservationForm = () => {
     const collectionReserva = collection(database, "reservaciones");
     await addDoc(collectionReserva, form);
     console.log(form);
-    //alert("Reserva realizada con Exito!");
+    alert(
+      "Reserva realizada correctamente. Inicia Sesión para revisarla o da clic en 'Ver reservaciones sin cuenta'"
+    );
   };
 
   return (

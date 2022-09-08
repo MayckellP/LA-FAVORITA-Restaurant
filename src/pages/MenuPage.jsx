@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { database } from "../firebase/firebase";
 import { getDocs, collection } from "firebase/firestore";
 import { NavLink } from "react-router-dom";
@@ -17,7 +17,9 @@ const MenuPage = () => {
     //console.log(data);
     setMenu(data);
   };
-  obtenerMenu();
+  useEffect(() => {
+    obtenerMenu();
+  }, []);
 
   return (
     <div className="body-men">
