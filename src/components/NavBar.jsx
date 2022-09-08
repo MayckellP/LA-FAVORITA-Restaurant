@@ -2,6 +2,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
+  const avisoLogin = () => {
+    alert(
+      "Inicia Sesión para ver las Reservaciones o dale clic a 'Ver reservaciones sin cuenta'"
+    );
+  };
   return (
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
       <div className="container">
@@ -33,7 +38,7 @@ const NavBar = () => {
             <NavLink className="nav-link" to="/reservation">
               Reservation
             </NavLink>
-            <NavLink className="nav-link" to="/login">
+            <NavLink className="nav-link" to="/login" onClick={avisoLogin}>
               Login
             </NavLink>
           </div>
