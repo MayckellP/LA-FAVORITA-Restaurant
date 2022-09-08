@@ -7,3 +7,13 @@
   justify-content: space-evenly;
   padding: 15px;
 }
+.enlace {
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 500px) {
+  .cont-footer {
+    font-size: 12px;
+  }
+}

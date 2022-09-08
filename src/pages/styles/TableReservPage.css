@@ -11,7 +11,7 @@
     #c9ffbf
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 20px;
-  height: 90vh;
+  height: 100vh;
 }
 h1 {
   text-align: center;
@@ -57,6 +57,9 @@ tr .nombre-tbl {
   .cont-ttl {
     font-size: 25px;
   }
+  .body-tb {
+    height: 100%;
+  }
 }
 @media (max-width: 450px) {
   .cont-ttl {
@@ -65,5 +68,8 @@ tr .nombre-tbl {
   .botones button {
     margin: 10px;
     font-size: 15px;
+  }
+  .body-tb {
+    height: 100%;
   }
 }

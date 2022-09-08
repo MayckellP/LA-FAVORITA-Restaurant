@@ -4,9 +4,16 @@ import "../components/styles/Footer.css";
 const Footer = () => {
   return (
     <div className="cont-footer">
-      <p> Desarrollado por Mayckell Perez</p>
+      <p>Mayckell Perez</p>
       <p>mayckell-perez@hotmail.com</p>
-      <p>Enlace de GitHub</p>
+      <p>
+        <a
+          className="enlace"
+          href="https://github.com/MayckellP/LA-FAVORITA-Restaurant"
+        >
+          GitHub
+        </a>
+      </p>
     </div>
   );
 };
